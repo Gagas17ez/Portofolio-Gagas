@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
-import { CgWebsite } from "react-icons/cg";
+import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { BsGithub } from "react-icons/bs";
 
 function ProjectCards(props) {
@@ -29,8 +29,8 @@ function ProjectCards(props) {
             target="_blank"
             style={{ marginLeft: "10px" }}
           >
-            <CgWebsite /> &nbsp;
-            {"Demo"}
+            <IoLogoGooglePlaystore /> &nbsp;
+            {"Download | Test"}
           </Button>
         )}
       </Card.Body>

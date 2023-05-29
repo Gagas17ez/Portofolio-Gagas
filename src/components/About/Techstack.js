@@ -2,67 +2,79 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
+  DiJava
 } from "react-icons/di";
 import {
-  SiRedis,
+  SiReact,
   SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiGit,
+  SiFlutter,
+  SiDart,
+  SiLaravel,
+  SiPython,
+  SiMysql,
+  SiGo,
+  SiC,
+  SiCplusplus,
+  SiAmazonaws
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiFlutter />
+        <h4>Flutter</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiDart />
+        <h4>Dart</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <SiLaravel />
+        <h4>Laravel</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiReact />
+        <h4>React</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiAmazonaws />
+        <h4>AWS</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <SiMysql />
+        <h4>MySql</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiGo />
+        <h4>Golang</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiGit />
+        <h4>Git</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
+        <h4>Firebase</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiC />
+        <h4>C</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiCplusplus />
+        <h4>C++</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiPython />
+        <h4>Python</h4>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+        <h4>Java</h4>
       </Col>
     </Row>
   );
