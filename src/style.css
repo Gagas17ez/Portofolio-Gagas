@@ -142,7 +142,7 @@ button:focus {
 
 @media (max-width: 767px) {
   .navbar {
-    padding: 1rem 2rem !important;
+    padding: 0.7rem 1rem !important;
     font-size: 1.4rem !important;
     background-color: #181a27 !important;
   }
@@ -191,7 +191,6 @@ button:focus {
   content: "";
   position: relative;
   display: block;
-  height: 5px;
   width: 0;
   border-radius: 16px;
   background: #c95bf5;
