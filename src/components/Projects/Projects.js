@@ -28,7 +28,7 @@ function Projects() {
               isBlog={false}
               title="RakitPC"
               description="Aplikasi yang berguna membantu pengguna mendapatkan komputernya sesuai dengan budget dan kebutuhan yang dimiliki, dengan atau tanpa pengalaman di dalam bidang komputer. Telah digunakan lebih dari 1.500 user."
-              ghLink="https://gitlab.com/p142"
+              ghLink="https://gitlab.com/p1"
               demoLink="https://play.google.com/store/apps/details?id=com.rakitpc.rakitpc"
             />
           </Col>
@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Laxena"
               description="Produk Freelance Untuk perusahaan kitchenware PT. LAXENA Mobile App "
-              ghLink="https://github.com/Gagas17ez/Laxena-APP"
+              ghLink="https://github.com/Gagas17ez/L"
               demoLink="https://play.google.com/store/apps/details?id=com.laxena"              
             />
           </Col>
