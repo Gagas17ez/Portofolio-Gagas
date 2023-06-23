@@ -27,7 +27,7 @@ function Projects() {
               imgPath={RakitPC}
               isBlog={false}
               title="RakitPC"
-              description="Aplikasi yang berguna membantu pengguna mendapatkan komputernya sesuai dengan budget dan kebutuhan yang dimiliki, dengan atau tanpa pengalaman di dalam bidang komputer. Telah digunakan lebih dari 1.500 user."
+              description="Aplikasi yang berguna membantu pengguna mendapatkan komputernya sesuai dengan budget dan kebutuhan yang dimiliki, dengan atau tanpa pengalaman di dalam bidang komputer. Telah digunakan lebih dari 1.900 user."
               ghLink="https://gitlab.com/p1"
               demoLink="https://play.google.com/store/apps/details?id=com.rakitpc.rakitpc"
             />
@@ -38,7 +38,7 @@ function Projects() {
               imgPath={JuandaTracking}
               isBlog={false}
               title="Juanda Tracking Service"
-              description="Web Tracking Penerbangan untuk penumpang Bandara Internasional Juanda yang berguna membantu penumpang tetap update tentang Status Penerbangan Terbaru, Delay, Perubahan Jam ataupun Gate. Merupakan hasil Produk Magang di PT Angakasa Pura I Juanda dan Terdeploy di koneksi jaringan Bandara Juanda Terminal I & II."
+              description="Web Tracking Penerbangan untuk penumpang Bandara Internasional Juanda yang berguna membantu penumpang tetap update tentang Status Penerbangan Terbaru, Delay, Perubahan Jam ataupun Gate. Merupakan hasil Produk Magang di PT Angakasa Pura I Juanda direncanakan launching di koneksi jaringan Bandara Juanda Terminal I & II pada bulan Agustus."
               ghLink="https://github.com/Gagas17ez/AngkasaPuraTrackingFlight"
             />
           </Col>
