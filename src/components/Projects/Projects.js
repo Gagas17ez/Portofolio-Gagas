@@ -40,6 +40,7 @@ function Projects() {
               title="Juanda Tracking Service"
               description="Web Tracking Penerbangan untuk penumpang Bandara Internasional Juanda yang berguna membantu penumpang tetap update tentang Status Penerbangan Terbaru, Delay, Perubahan Jam ataupun Gate. Merupakan hasil Produk Magang di PT Angakasa Pura I Juanda direncanakan launching di koneksi jaringan Bandara Juanda Terminal I & II pada bulan Agustus."
               ghLink="https://github.com/Gagas17ez/AngkasaPuraTrackingFlight"
+              demoLink="https://youtu.be/vjp83XEKBUo"
             />
           </Col>
 
