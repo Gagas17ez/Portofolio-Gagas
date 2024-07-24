@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import infakin from "../../Assets/Projects/infakin.png";
 import SanberTodo from "../../Assets/Projects/SanberTodo.png";
 import MyAnimeForum from "../../Assets/Projects/myAnimeForum.png";
 import Laxena from "../../Assets/Projects/Laxena.png";
@@ -22,6 +23,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={infakin}
+              isBlog={false}
+              title="Infakin"
+              description="Infak.in adalah platform progresive web apps crowdfunding yang dikelola oleh Lembaga Manajemen Infaq (LMI). Platform ini dirancang untuk memfasilitasi penggalangan dana amal dengan mempermudah proses donasi untuk berbagai tujuan sosial dan kemanusiaan. Sebagai bagian dari LMI, Infak.in berfokus pada pengelolaan dan distribusi dana untuk proyek-proyek yang memerlukan dukungan finansial dari masyarakat."
+              ghLink="https://github.com/LMI-Batch-5"
+              demoLink="https://infak.in/?inspirator=iX4jl5"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={RakitPC}
